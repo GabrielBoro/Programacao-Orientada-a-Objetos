@@ -5,7 +5,7 @@ import java.sql.SQLException;
 
 public class Conexao {
 	private String driver = "oracle.jdbc.driver.OracleDriver";
-	private String caminho = "jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL";
+	private String caminho = "";
 	private String login = "";
 	private String senha = "";
 	private Connection conexao;
